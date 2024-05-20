@@ -55,7 +55,7 @@ const Game = () => {
     setIndex([]);
     setTimeout(() => {
       setDisable(false);
-    }, 1000);
+    }, 500);
   };
 
   const CreateRandomItem = (e) => {

@@ -97,18 +97,34 @@
   border-radius: 10px;
   border: 2px solid black;
   background-color: black;
-  color: white;
   z-index: 9999;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2rem;
+  border-radius: 2rem;
+  background-image: url("/src/images/fireworks.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: colourchange 5s infinite ease-in;
 }
 .finish-screen div {
   margin: 2rem;
 }
 
 div span {
-  color: blue;
   cursor: pointer;
+  text-decoration: underline;
+}
+
+@keyframes colourchange {
+  0% {
+    color: white;
+  }
+  50% {
+    color: lightgoldenrodyellow;
+  }
+  100% {
+    color: white;
+  }
 }
