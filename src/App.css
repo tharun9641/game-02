@@ -1,0 +1,15 @@
+* {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightskyblue;
+}
+.App {
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
